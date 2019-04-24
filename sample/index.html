@@ -29,6 +29,9 @@
 <script src="../build/ckeditor.js"></script>
 <script>
 	ClassicEditor.create( document.querySelector( '#editor' ), {
+		upload: {
+			uploadUrl: 'https://service-internal-stg.seednet.vn/upload-image'
+		},
 		fontColor: {
             colors: [
                 {
